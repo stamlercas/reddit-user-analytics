@@ -1,0 +1,20 @@
+.username-input {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.username-input-parent {
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.btn-margin {
+	margin:7px;
+}
