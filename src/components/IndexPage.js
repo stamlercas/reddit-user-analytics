@@ -24,7 +24,10 @@ export default class IndexPage extends React.Component {
 
   render() {
     return (
-    	<div>
+    	<div className="container">
+    		<div className="text-center">
+    			<img src="img/reddit.png" className="img-fluid"></img>
+    		</div>
 	    	<div className="row">
 	    		<div className="col-md-6 offset-md-3">
 	    			<h1>Reddit User Data Analytics</h1>

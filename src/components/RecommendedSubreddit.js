@@ -3,12 +3,12 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-export default class IndexPage extends React.Component {
+export default class RecommendedSubreddit extends React.Component {
 
   render() {
   	var base_url = "https://reddit.com/r/";
     return (
-    	<a target="_blank" className="btn btn-outline-primary btn-margin" role="button" href={base_url + this.props.subreddit.sr_name}>{this.props.subreddit.sr_name}</a>
+    	<a className="btn btn-outline-primary btn-margin" role="button" href={base_url + this.props.subreddit.sr_name}>{this.props.subreddit.sr_name}</a>
     );
   }
 }
